@@ -5,12 +5,14 @@
         <link rel="stylesheet" href="./assets/css/style.css" />
         <title>Run Buddy</title>
     </head>
+
     <body>
         <!-- Navigation -->
         <header>
             <h1>
-                <a href="/">RUN BUDDY</a>
-
+                <a href="/">
+                    RUN BUDDY
+                </a>
             </h1>
             <nav>
                 <!-- Unordered list element -->
@@ -41,11 +43,11 @@
                 <!-- Add form element -->
                 <form>
                     <label for="name">Enter full name:</label>
-                    <input type="text" placeholder="Your Name" name="name" id="name" />
+                    <input type="text" placeholder="Your Name" name="name" id="name" class="form-input" />
                     <label for="email">Enter email address:</label>
-                    <input type="text" placeholder="Email Address" name="email" id="email"/>
+                    <input type="text" placeholder="Email Address" name="email" id="email" class="form-input"/>
                     <label for="phone">Enter a telphone number:</label>
-                    <input type="tel" placeholder="Phone Number" name="phone" id="phone"/>
+                    <input type="tel" placeholder="Phone Number" name="phone" id="phone" class="form-input"/>
                     <p>
                         Have you worked out with a trainer before?
                         <input type="radio" name="trainer-confirm" id="trainer-yes" />
@@ -57,7 +59,7 @@
                         <label for="checkbox">
                             I acknowledge that I am at least 18 years of age.
                         </label>
-                        <input for="checkbox" name="age-confirm" id="checkbox" />
+                        <input type="checkbox" name="checkpoint1" id="checkbox" />
                     </p>
                     <button type="submit">
                         Get running!
