@@ -450,20 +450,21 @@ section {
 .contact-form button {
     width: 100%;
     border: none;
-    background: #fce138;
-    color: #024e76;
+    background: var(--primary-color);
+    color: var(--secondary-color);
     text-align: center;
     padding: 15px 0;
     font-size: 16px;
+    border-radius: 10px;
 }
 
 .contact-form button:hover {
-    color: #fce138;
-    background: #39a6b2;
+    color: var(--primary-color);
+    background: var(--tertiary-color);
 }
 
 .contact-info a {
-    color: #fce138;
+    color: var(--primary-color);
 }
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
